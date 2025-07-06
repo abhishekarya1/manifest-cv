@@ -1,4 +1,3 @@
-## About
 This is my resume template made in LaTeX. Based on [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) and modified using Windsurf AI.
 
 ## Build
