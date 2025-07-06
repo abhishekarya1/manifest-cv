@@ -19,6 +19,10 @@ To check for compatibility, do "select all plain text check" by opening in Chrom
 
 Then use this to verify proper parsing - https://www.open-resume.com/resume-parser
 
+## Processing
+- Compress PDF
+- Remove certain PDF Metadata (e.g. name of compress site)
+
 ## Storing and Versioning
 Stored in Google Drive - https://drive.google.com/drive/u/0/folders/1BwnE5gdTmD0scHC3n4S_91aenfW2iOts
 
