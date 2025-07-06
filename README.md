@@ -28,4 +28,4 @@ Version History - `More actions -> File information -> Manage versions` (helps m
 Spaces not copied in plain text check - don't use the SourceSansPro font! Issues happens in Edge, and not in Chrome so better avoid it.
 
 ## License
-[MIT License](https://choosealicense.com/licenses/mit/)
+[MIT License](/LICENSE)
