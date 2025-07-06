@@ -14,7 +14,7 @@ To clear all temp files (including PDF), run:
 $ latexmk -C jakes-resume.tex
 ```
 
-### Compatibility
+## Compatibility
 To check for compatibility, do "select all plain text check" by opening in Chrome, Edge, and Adobe Acrobat.
 
 Then use this to verify proper parsing - https://www.open-resume.com/resume-parser
