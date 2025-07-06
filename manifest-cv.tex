@@ -1,0 +1,217 @@
+%-------------------------
+% Resume in Latex
+% Author : Abhishek Arya
+% Based off of: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+% Adjust spacing between sections
+\usepackage{setspace}
+\setlength{\parskip}{0.5em}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Improve spacing for better readability
+\linespread{1.05}
+\setlength{\itemsep}{0.2em}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\fontsize{8.55}{9.45}\selectfont{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\fontsize{10}{12}\selectfont #2} \\
+      \vspace{2pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=1.2em]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\fontsize{20}{24}\selectfont \scshape Abhishek Arya} \\ \vspace{4pt}
+    \fontsize{10}{12}{\selectfont
+    \href{tel:+91-9205967162}{\underline{+91-9205967162}} \hspace{0.5em}$|$\hspace{0.5em}
+    \href{mailto:abhishekarya102@gmail.com}{\underline{abhishekarya102@gmail.com}} \hspace{0.5em}$|$\hspace{0.5em} 
+    \href{https://www.abhishekarya.com}{\underline{abhishekarya.com}} \hspace{0.5em}$|$\hspace{0.5em}
+    \href{https://linkedin.com/in/abhishekarya-1}{\underline{linkedin.com/in/abhishekarya-1}}
+    }
+\end{center}
+\vspace{-8pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Senior Software Engineer}{Jul 2024 -- Present}
+      {UKG (Ultimate Kronos Group)}{Noida, India}
+      \resumeItemListStart
+        \resumeItem{Designing GitHub Actions workflows to automate UI and Integrations tests for a variety of test frameworks like Selenium, NUnit, Nightwatch JS, optimizing CI/CD efficiency and reducing manual effort.}
+        \resumeItem{Building cross-platform reusable GitHub Actions in TypeScript for test execution, environment setup, and reporting, cutting workflow complexity and improving reusability.}
+        \resumeItem{Integrated observability into GitHub Actions using OpenTelemetry, Jaeger, Datadog, and Splunk, enhancing traceability, logging, and metrics collection leading to better monitoring and alerting.}
+        \resumeItem{Ideated and led the implementation of test execution in headless mode on Linux runners, cutting execution times by 30\% while maintaining test pass rates.}
+        \resumeItem{The workflows and actions are used by ~30 core product teams across the organization as the primary test execution pipeline, reducing dependency on existing CI/CD tool (JetBrains TeamCity) and saving licensing costs by 40\%.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Software Engineer}{Jan 2023 -- Jul 2024}
+      {TCS (Tata Consultancy Services), Client - Macy's Inc.}{Noida, India}
+      \resumeItemListStart
+        \resumeItem{Developed and modernized critical platforms, including ad management, web analytics, and vendor portal, migrating 30+ applications to a cloud-based microservices architecture using Java 21, Spring Boot 3, and Spring Batch.}
+        \resumeItem{Converted a supply chain legacy monolith to ~8 microservices with zero performance loss, implemented reactive programming with WebFlux and R2DBC for asynchronous business logic, JWT-based authentication with Spring Security, and integrated AWS SNS and Kafka for real-time notifications.}
+        \resumeItem{Implemented batch job processing and scheduling pipelines using Spring Cloud Data Flow as the admin panel for the new application.}
+        \resumeItem{Led the migration of a legacy key-value store (Oracle Berkeley DB) to Google Memorystore Redis, designed schema and developed code to migrate.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer}{Dec 2020 -- Dec 2022}
+      {TCS (Tata Consultancy Services), Client - Safeway Inc.}{Remote, India}
+      \resumeItemListStart
+        \resumeItem{Migrated 10+ legacy applications, replacing mainframe systems and a third-party gateway with a cloud-based microservices architecture using Java Spring Boot, ensuring 99.99\% uptime and 30\% faster response times.}
+        \resumeItem{Deployed ~20 microservices and the gateway application to Microsoft Azure with minimal downtime, reducing infrastructure costs by 40\% and improving system throughput by 20\%, while supporting 1000+ mission-critical requests per minute across 22 locations across North America.}
+        \resumeItem{Optimized Jenkins CI/CD pipeline by introducing layered Docker images for the application, slashing build and deployment times by 75\% and improved monitoring with Prometheus and Grafana Dashboard for robust telemetry.}
+        \resumeItem{Resolved critical performance and bottleneck issues, reducing recurring incidents by 80\%; developed a SonarQube report automation tool for stakeholders, enhancing code quality tracking.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Galgotias University}{Greater Noida, India}
+    {Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE)}{ 2016 -- 2020}
+\resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \fontsize{9.5}{10.5}\selectfont{\item{
+     \textbf{Programming}{: C, C++, Python, JavaScript, TypeScript, Java, Go, Bash } \\
+     \textbf{Frameworks}{: J2EE, Web MVC, Spring Boot, Data JPA, Hibernate ORM, Spring Cloud, Batch, Reactive, JUnit, FastAPI, Node.js, React } \\
+     \textbf{Tools}{: MySQL, Redis, MongoDB, Azure, GCP, AWS, ActiveMQ, Kafka, Git, Docker, Kubernetes, GitHub Actions, Jenkins, Linux} \\
+     \textbf{AI}{: Ollama, LLM RAG, MCP}
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Cache-me-if-you-can!} $|$ \emph{URL shortener and webpage archival RESTful web API}}{\href{https://github.com/abhishekarya1/cachemeifyoucan-api}{\underline{link}}}
+          \resumeItemListStart
+            \resumeItem{Shortened links that redirect to the original, but if the original is down, a cached version of the webpage is displayed. Accessible over a public API to use from the terminal or a separate frontend app.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Hashme CLI} $|$ \emph{Command line tool to check file content tampering and corruption}}{\href{https://github.com/abhishekarya1/hashme-cli}{\underline{link}}}
+          \resumeItemListStart
+            \resumeItem{A handy command-line utility to generate file hashes using the MD5 or SHA256 algorithms to verify file integrity.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Ducky Bot} $|$ \emph{Bot to automate posts across social media platforms}}{\href{https://github.com/abhishekarya1/ducky-bot}{\underline{link}}}
+          \resumeItemListStart
+            \resumeItem{An interactive chat application for the social media app "Discord", offering various options for fetching and posting content asynchronously 
+            from Reddit based on user inputs or scheduled posts, along with content filters.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
