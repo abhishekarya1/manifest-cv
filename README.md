@@ -1,5 +1,5 @@
 ## About
-This is my resume template. Based on [Jake's Resume Template](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) and modified using Windsurf AI.
+This is my resume template made in Latex. Based on [Jake's Resume Template](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) and modified using Windsurf AI.
 
 ## Build
 Install [MiKTeX](https://miktex.org/) for `latexmk` to be available.
