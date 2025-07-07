@@ -30,5 +30,8 @@ Version History - `More actions -> File information -> Manage versions` (helps m
 ## Known Issues
 Spaces not copied in plain text check - don't use the SourceSansPro font! Issues happens in Edge, and not in Chrome so better avoid it.
 
+## Further
+Can make it look like [this](https://www.overleaf.com/latex/templates/jakes-resume-anonymous/cstpnrbkhndn), it has a better emphasis on dates.
+
 ## License
 [MIT License](/LICENSE)
