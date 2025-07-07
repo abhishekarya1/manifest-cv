@@ -23,7 +23,7 @@ Then use this to verify proper parsing - https://www.open-resume.com/resume-pars
 - Remove certain PDF Metadata (e.g. name of compress site)
 
 ## Storing and Versioning
-Stored in Google Drive - https://drive.google.com/drive/u/0/folders/1BwnE5gdTmD0scHC3n4S_91aenfW2iOts
+Stored in Google Drive - https://drive.google.com/file/d/1D024HjRc_EhAaDuNM2MAacx1Lg7_1IGs/view
 
 Version History - `More actions -> File information -> Manage versions` (helps maintain a single static shared link)
 
